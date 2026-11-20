@@ -1,0 +1,47 @@
+[1.087s] Invoking command in '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build --no-deps symlink_data
+[1.376s] running develop
+[1.542s] running egg_info
+[1.562s] creating panda.egg-info
+[1.562s] writing panda.egg-info/PKG-INFO
+[1.563s] writing dependency_links to panda.egg-info/dependency_links.txt
+[1.563s] writing requirements to panda.egg-info/requires.txt
+[1.563s] writing top-level names to panda.egg-info/top_level.txt
+[1.563s] writing manifest file 'panda.egg-info/SOURCES.txt'
+[1.609s] reading manifest file 'panda.egg-info/SOURCES.txt'
+[1.610s] writing manifest file 'panda.egg-info/SOURCES.txt'
+[1.634s] running build_ext
+[1.634s] Creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda.egg-link (link to .)
+[1.635s] 
+[1.635s] Installed /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda
+[1.635s] running symlink_data
+[1.635s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+[1.635s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/resource/panda -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+[1.636s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/package.xml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda
+[1.636s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+[1.636s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+[1.636s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/urdf/panda.urdf -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+[1.636s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+[1.636s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/config/panda_controllers.yaml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+[1.636s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link7.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link3.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link1.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link0.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link4.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link5.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/hand.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link2.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.637s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/finger.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link6.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.638s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link3.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link4.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link6.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link5.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link7.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.638s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link2.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.639s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/finger.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.639s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link0.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.639s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/hand.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.639s] symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link1.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.691s] Invoked command in '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build --no-deps symlink_data

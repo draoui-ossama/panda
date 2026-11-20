@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.003709] (panda) JobQueued: {'identifier': 'panda', 'dependencies': OrderedDict()}
+[0.006551] (panda) JobStarted: {'identifier': 'panda'}
+[0.100026] (-) TimerEvent: {}
+[0.201337] (-) TimerEvent: {}
+[0.301785] (-) TimerEvent: {}
+[0.402420] (-) TimerEvent: {}
+[0.503243] (-) TimerEvent: {}
+[0.605093] (-) TimerEvent: {}
+[0.705995] (-) TimerEvent: {}
+[0.807475] (-) TimerEvent: {}
+[0.909209] (-) TimerEvent: {}
+[1.012809] (-) TimerEvent: {}
+[1.114012] (-) TimerEvent: {}
+[1.214955] (-) TimerEvent: {}
+[1.316104] (-) TimerEvent: {}
+[1.416696] (-) TimerEvent: {}
+[1.517660] (-) TimerEvent: {}
+[1.618132] (-) TimerEvent: {}
+[1.718729] (-) TimerEvent: {}
+[1.820965] (-) TimerEvent: {}
+[1.922141] (-) TimerEvent: {}
+[2.023419] (-) TimerEvent: {}
+[2.124543] (-) TimerEvent: {}
+[2.227220] (-) TimerEvent: {}
+[2.327946] (-) TimerEvent: {}
+[2.429053] (-) TimerEvent: {}
+[2.530024] (-) TimerEvent: {}
+[2.631167] (-) TimerEvent: {}
+[2.732217] (-) TimerEvent: {}
+[2.833422] (-) TimerEvent: {}
+[2.934012] (-) TimerEvent: {}
+[3.034822] (-) TimerEvent: {}
+[3.137753] (-) TimerEvent: {}
+[3.238815] (-) TimerEvent: {}
+[3.339994] (-) TimerEvent: {}
+[3.440657] (-) TimerEvent: {}
+[3.541780] (-) TimerEvent: {}
+[3.642558] (-) TimerEvent: {}
+[3.743416] (-) TimerEvent: {}
+[3.843774] (-) TimerEvent: {}
+[3.944410] (-) TimerEvent: {}
+[4.045020] (-) TimerEvent: {}
+[4.145393] (-) TimerEvent: {}
+[4.248521] (-) TimerEvent: {}
+[4.349305] (-) TimerEvent: {}
+[4.450121] (-) TimerEvent: {}
+[4.550919] (-) TimerEvent: {}
+[4.651830] (-) TimerEvent: {}
+[4.752717] (-) TimerEvent: {}
+[4.854045] (-) TimerEvent: {}
+[4.955422] (-) TimerEvent: {}
+[5.056027] (-) TimerEvent: {}
+[5.156747] (-) TimerEvent: {}
+[5.257135] (-) TimerEvent: {}
+[5.357519] (-) TimerEvent: {}
+[5.458039] (-) TimerEvent: {}
+[5.559788] (-) TimerEvent: {}
+[5.661242] (-) TimerEvent: {}
+[5.762003] (-) TimerEvent: {}
+[5.863580] (-) TimerEvent: {}
+[5.965980] (-) TimerEvent: {}
+[6.068867] (-) TimerEvent: {}
+[6.133886] (panda) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda', 'env': OrderedDict({'GZ_SIM_SYSTEM_PLUGIN_PATH': '/opt/ros/lyrical/lib', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/lyrical/share', 'USER': 'ossama', 'GZ_CONFIG_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/share/gz:/opt/ros/lyrical/opt/gz_gui_vendor/share/gz:/opt/ros/lyrical/opt/gz_transport_vendor/share/gz:/opt/ros/lyrical/opt/sdformat_vendor/share/gz:/opt/ros/lyrical/opt/gz_rendering_vendor/share/gz:/opt/ros/lyrical/opt/gz_plugin_vendor/share/gz:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/lyrical/opt/gz_msgs_vendor/share/gz:/opt/ros/lyrical/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'PTYXIS_VERSION': '50.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor/lib:/opt/ros/lyrical/opt/gz_sensors_vendor/lib:/opt/ros/lyrical/opt/gz_gui_vendor/lib:/opt/ros/lyrical/opt/gz_transport_vendor/lib:/opt/ros/lyrical/opt/zenoh_cpp_vendor/lib:/opt/ros/lyrical/opt/gz_physics_vendor/lib:/opt/ros/lyrical/opt/sdformat_vendor/lib:/opt/ros/lyrical/opt/gz_rendering_vendor/lib:/opt/ros/lyrical/opt/gz_plugin_vendor/lib:/opt/ros/lyrical/opt/gz_fuel_tools_vendor/lib:/opt/ros/lyrical/opt/gz_msgs_vendor/lib:/opt/ros/lyrical/opt/gz_common_vendor/lib:/opt/ros/lyrical/opt/gz_math_vendor/lib:/opt/ros/lyrical/opt/gz_utils_vendor/lib:/opt/ros/lyrical/opt/rviz_ogre_vendor/lib:/opt/ros/lyrical/lib/x86_64-linux-gnu:/opt/ros/lyrical/opt/gz_tools_vendor/lib:/opt/ros/lyrical/opt/gz_ogre_next_vendor/lib:/opt/ros/lyrical/opt/gz_dartsim_vendor/lib:/opt/ros/lyrical/opt/gz_cmake_vendor/lib:/opt/ros/lyrical/lib', 'HOME': '/home/ossama', 'DESKTOP_SESSION': 'ubuntu', 'IM_CONFIG_ENTRY': 'profile', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3768', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3810', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6292385a929c4d751c73939e6aff604f', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ossama/Desktop/ROBOTICS/panda_ws/install', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'ossama', 'MANAGERPIDFDID': '8621', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/dbus.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ossama', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FLATPAK_TTY_PROGRESS': '1', 'PATH': '/opt/ros/lyrical/opt/gz_msgs_vendor/bin:/opt/ros/lyrical/opt/gz_tools_vendor/bin:/opt/ros/lyrical/opt/gz_ogre_next_vendor/bin:/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'INVOCATION_ID': '6c1d87646d7a4a9692d4e87893db73e7', 'XDG_MENU_PREFIX': 'gnome-', 'PTYXIS_PROFILE': 'eade85185dcf46493db9ef516afa1371', 'GNOME_SETUP_DISPLAY': 'unix:/tmp/.X11-unix/X1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.S5PIY3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/gcr/ssh', 'AMENT_PREFIX_PATH': '/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda:/opt/ros/lyrical', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6292385a929c4d751c73939e6aff604f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_SESSION_EXTRA_DEVICE_ACCESS': 'render:accel', 'PYTHONPATH': '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:/opt/ros/lyrical/opt/gz_sim_vendor/lib/python:/opt/ros/lyrical/opt/gz_transport_vendor/lib/python:/opt/ros/lyrical/opt/sdformat_vendor/lib/python:/opt/ros/lyrical/opt/gz_msgs_vendor/lib/python:/opt/ros/lyrical/opt/gz_math_vendor/lib/python:/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'QT_IM_MODULES': 'wayland;ibus', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '8400', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical/opt/gz_sim_vendor:/opt/ros/lyrical/opt/gz_sensors_vendor:/opt/ros/lyrical/opt/gz_gui_vendor:/opt/ros/lyrical/opt/gz_transport_vendor:/opt/ros/lyrical/opt/gz_physics_vendor:/opt/ros/lyrical/opt/sdformat_vendor:/opt/ros/lyrical/opt/gz_rendering_vendor:/opt/ros/lyrical/opt/gz_plugin_vendor:/opt/ros/lyrical/opt/gz_fuel_tools_vendor:/opt/ros/lyrical/opt/gz_msgs_vendor:/opt/ros/lyrical/opt/gz_common_vendor:/opt/ros/lyrical/opt/gz_math_vendor:/opt/ros/lyrical/opt/gz_utils_vendor:/opt/ros/lyrical/opt/gz_tools_vendor:/opt/ros/lyrical/opt/gz_ogre_next_vendor:/opt/ros/lyrical/opt/gz_dartsim_vendor:/opt/ros/lyrical/opt/gz_cmake_vendor'}), 'shell': False}
+[6.168917] (-) TimerEvent: {}
+[6.269274] (-) TimerEvent: {}
+[6.369726] (-) TimerEvent: {}
+[6.471042] (-) TimerEvent: {}
+[6.572006] (-) TimerEvent: {}
+[6.672387] (-) TimerEvent: {}
+[6.772811] (-) TimerEvent: {}
+[6.873164] (-) TimerEvent: {}
+[6.973930] (-) TimerEvent: {}
+[7.076630] (-) TimerEvent: {}
+[7.177146] (-) TimerEvent: {}
+[7.277766] (-) TimerEvent: {}
+[7.378966] (-) TimerEvent: {}
+[7.480031] (-) TimerEvent: {}
+[7.580429] (-) TimerEvent: {}
+[7.680838] (-) TimerEvent: {}
+[7.686383] (panda) StdoutLine: {'line': b'running develop\n'}
+[7.780944] (-) TimerEvent: {}
+[7.881306] (-) TimerEvent: {}
+[7.981609] (-) TimerEvent: {}
+[8.011225] (panda) StdoutLine: {'line': b'running egg_info\n'}
+[8.040114] (panda) StdoutLine: {'line': b'writing panda.egg-info/PKG-INFO\n'}
+[8.040842] (panda) StdoutLine: {'line': b'writing dependency_links to panda.egg-info/dependency_links.txt\n'}
+[8.041133] (panda) StdoutLine: {'line': b'writing requirements to panda.egg-info/requires.txt\n'}
+[8.041329] (panda) StdoutLine: {'line': b'writing top-level names to panda.egg-info/top_level.txt\n'}
+[8.081698] (-) TimerEvent: {}
+[8.103131] (panda) StdoutLine: {'line': b"reading manifest file 'panda.egg-info/SOURCES.txt'\n"}
+[8.105181] (panda) StdoutLine: {'line': b"writing manifest file 'panda.egg-info/SOURCES.txt'\n"}
+[8.132724] (panda) StdoutLine: {'line': b'running build_ext\n'}
+[8.132995] (panda) StdoutLine: {'line': b'Creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda.egg-link (link to .)\n'}
+[8.133811] (panda) StdoutLine: {'line': b'\n'}
+[8.134054] (panda) StdoutLine: {'line': b'Installed /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda\n'}
+[8.134192] (panda) StdoutLine: {'line': b'running symlink_data\n'}
+[8.134579] (panda) StdoutLine: {'line': b'symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch\n'}
+[8.181814] (-) TimerEvent: {}
+[8.186827] (panda) CommandEnded: {'returncode': 0}
+[8.208202] (panda) JobEnded: {'identifier': 'panda', 'rc': 0}
+[8.209351] (-) EventReactorShutdown: {}

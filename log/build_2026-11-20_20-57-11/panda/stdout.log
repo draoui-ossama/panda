@@ -1,0 +1,45 @@
+running develop
+running egg_info
+creating panda.egg-info
+writing panda.egg-info/PKG-INFO
+writing dependency_links to panda.egg-info/dependency_links.txt
+writing requirements to panda.egg-info/requires.txt
+writing top-level names to panda.egg-info/top_level.txt
+writing manifest file 'panda.egg-info/SOURCES.txt'
+reading manifest file 'panda.egg-info/SOURCES.txt'
+writing manifest file 'panda.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda.egg-link (link to .)
+
+Installed /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda
+running symlink_data
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/resource/panda -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/package.xml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/urdf/panda.urdf -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/config/panda_controllers.yaml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link7.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link3.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link1.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link0.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link4.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link5.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/hand.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link2.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/finger.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/collision/link6.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link3.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link4.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link6.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link5.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link7.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link2.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/finger.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link0.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/hand.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+symbolically linking /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/meshes/visual/link1.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
