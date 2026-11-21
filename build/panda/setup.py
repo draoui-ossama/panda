@@ -1,1 +1,0 @@
-/home/ossama/Desktop/ROBOTICS/panda_ws/src/panda/setup.py

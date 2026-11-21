@@ -1,4 +1,4 @@
-from panda_controller import PandaController
+from nodes.panda_controller import PandaController
 def main(args=None):
 
 

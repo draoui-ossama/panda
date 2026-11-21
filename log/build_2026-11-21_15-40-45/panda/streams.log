@@ -1,0 +1,27 @@
+[0.857s] Invoking command in '/home/ossama/Desktop/ROBOTICS/panda_ws/src/panda': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda build --build-base /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build install --record /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log --install-scripts $base/lib/panda --single-version-externally-managed install_data
+[1.171s] running egg_info
+[1.191s] writing ../../build/panda/panda.egg-info/PKG-INFO
+[1.192s] writing dependency_links to ../../build/panda/panda.egg-info/dependency_links.txt
+[1.192s] writing requirements to ../../build/panda/panda.egg-info/requires.txt
+[1.192s] writing top-level names to ../../build/panda/panda.egg-info/top_level.txt
+[1.243s] reading manifest file '../../build/panda/panda.egg-info/SOURCES.txt'
+[1.245s] writing manifest file '../../build/panda/panda.egg-info/SOURCES.txt'
+[1.245s] running build
+[1.245s] running build_py
+[1.245s] copying panda/__init__.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+[1.245s] copying panda/py.typed -> /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+[1.246s] running install
+[1.252s] running install_lib
+[1.275s] running install_data
+[1.275s] copying resource/panda -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+[1.276s] copying package.xml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda
+[1.276s] copying launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+[1.276s] copying launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+[1.276s] copying urdf/panda.urdf -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+[1.277s] copying config/panda_controllers.yaml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+[1.278s] running install_egg_info
+[1.299s] removing '/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda-0.0.0-py3.14.egg-info' (and everything under it)
+[1.299s] Copying ../../build/panda/panda.egg-info to /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda-0.0.0-py3.14.egg-info
+[1.300s] running install_scripts
+[1.408s] writing list of installed files to '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log'
+[1.461s] Invoked command in '/home/ossama/Desktop/ROBOTICS/panda_ws/src/panda' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda build --build-base /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build install --record /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log --install-scripts $base/lib/panda --single-version-externally-managed install_data

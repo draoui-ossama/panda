@@ -1,0 +1,51 @@
+running develop
+Removing /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda.egg-link (link to .)
+running egg_info
+writing ../../build/panda/panda.egg-info/PKG-INFO
+writing dependency_links to ../../build/panda/panda.egg-info/dependency_links.txt
+writing requirements to ../../build/panda/panda.egg-info/requires.txt
+writing top-level names to ../../build/panda/panda.egg-info/top_level.txt
+reading manifest file '../../build/panda/panda.egg-info/SOURCES.txt'
+writing manifest file '../../build/panda/panda.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+copying panda/__init__.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+copying panda/py.typed -> /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+running install
+running install_lib
+creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda
+copying /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda/py.typed -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda
+copying /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda/__init__.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda
+byte-compiling /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda/__init__.py to __init__.cpython-314.pyc
+running install_data
+copying resource/panda -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+copying package.xml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda
+copying launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+copying launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+copying urdf/panda.urdf -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+copying config/panda_controllers.yaml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+copying meshes/collision/link7.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link3.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link1.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link0.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link4.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link5.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/hand.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link2.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/finger.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/collision/link6.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+copying meshes/visual/link3.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link4.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link6.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link5.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link7.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link2.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/finger.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link0.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/hand.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+copying meshes/visual/link1.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+running install_egg_info
+Copying ../../build/panda/panda.egg-info to /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda-0.0.0-py3.14.egg-info
+running install_scripts
+writing list of installed files to '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log'

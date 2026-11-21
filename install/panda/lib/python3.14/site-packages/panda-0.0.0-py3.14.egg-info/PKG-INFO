@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: panda
+Version: 0.0.0
+Summary: Franka Panda ROS 2 simulation
+Maintainer: ossama
+Maintainer-email: 
+License: Apache-2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: requires-dist
+Dynamic: summary

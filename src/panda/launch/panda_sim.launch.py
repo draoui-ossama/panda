@@ -74,8 +74,16 @@ def generate_launch_description():
         arguments=[
             '-name', 'panda',
             '-topic', '/robot_description',
-            '-x', '0', '-y', '0', '-z', '0.5',
+            '-x', '0', '-y', '0', '-z', '0',
         ],
+    )
+    clock_bridge = Node(
+        package='ros_gz_bridge',
+        executable='parameter_bridge',
+        arguments=[
+            '/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock'
+        ],
+        output='screen',
     )
 
     # Pass the YAML to each controller spawner. The Gazebo plugin loads the
@@ -118,6 +126,7 @@ def generate_launch_description():
         ),
         gazebo,
         robot_state_publisher,
+        clock_bridge,
         # Give Gazebo and robot_state_publisher time to start before spawning.
         TimerAction(period=5.0, actions=[spawn_panda]),
         # Start controllers in order after the Panda has been spawned.

@@ -1,0 +1,55 @@
+[0.882s] Invoking command in '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build
+[1.195s] running develop
+[1.395s] Removing /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda.egg-link (link to .)
+[1.443s] Invoked command in '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build
+[1.444s] Invoking command in '/home/ossama/Desktop/ROBOTICS/panda_ws/src/panda': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda build --build-base /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build install --record /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log --install-scripts $base/lib/panda --single-version-externally-managed install_data --force
+[1.756s] running egg_info
+[1.779s] writing ../../build/panda/panda.egg-info/PKG-INFO
+[1.779s] writing dependency_links to ../../build/panda/panda.egg-info/dependency_links.txt
+[1.779s] writing requirements to ../../build/panda/panda.egg-info/requires.txt
+[1.779s] writing top-level names to ../../build/panda/panda.egg-info/top_level.txt
+[1.833s] reading manifest file '../../build/panda/panda.egg-info/SOURCES.txt'
+[1.834s] writing manifest file '../../build/panda/panda.egg-info/SOURCES.txt'
+[1.834s] running build
+[1.835s] running build_py
+[1.835s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+[1.835s] copying panda/__init__.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+[1.835s] copying panda/py.typed -> /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda
+[1.835s] running install
+[1.841s] running install_lib
+[1.862s] creating /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda
+[1.862s] copying /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda/py.typed -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda
+[1.863s] copying /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build/lib/panda/__init__.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda
+[1.863s] byte-compiling /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda/__init__.py to __init__.cpython-314.pyc
+[1.864s] running install_data
+[1.864s] copying resource/panda -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/ament_index/resource_index/packages
+[1.865s] copying package.xml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda
+[1.865s] copying launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+[1.865s] copying launch/panda_sim.launch.py -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/launch
+[1.865s] copying urdf/panda.urdf -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/urdf
+[1.865s] copying config/panda_controllers.yaml -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/config
+[1.865s] copying meshes/collision/link7.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.865s] copying meshes/collision/link3.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.866s] copying meshes/collision/link1.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.866s] copying meshes/collision/link0.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.866s] copying meshes/collision/link4.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.866s] copying meshes/collision/link5.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.866s] copying meshes/collision/hand.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.867s] copying meshes/collision/link2.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.867s] copying meshes/collision/finger.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.867s] copying meshes/collision/link6.stl -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/collision
+[1.868s] copying meshes/visual/link3.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.868s] copying meshes/visual/link4.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.869s] copying meshes/visual/link6.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.871s] copying meshes/visual/link5.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.871s] copying meshes/visual/link7.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.872s] copying meshes/visual/link2.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.872s] copying meshes/visual/finger.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.872s] copying meshes/visual/link0.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.874s] copying meshes/visual/hand.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.874s] copying meshes/visual/link1.dae -> /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/share/panda/meshes/visual
+[1.874s] running install_egg_info
+[1.896s] Copying ../../build/panda/panda.egg-info to /home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages/panda-0.0.0-py3.14.egg-info
+[1.897s] running install_scripts
+[2.007s] writing list of installed files to '/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log'
+[2.054s] Invoked command in '/home/ossama/Desktop/ROBOTICS/panda_ws/src/panda' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ossama/Desktop/ROBOTICS/panda_ws/install/panda/lib/python3.14/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/panda build --build-base /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/build install --record /home/ossama/Desktop/ROBOTICS/panda_ws/build/panda/install.log --install-scripts $base/lib/panda --single-version-externally-managed install_data --force
