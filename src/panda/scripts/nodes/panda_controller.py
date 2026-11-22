@@ -9,13 +9,10 @@ from control_msgs.action import FollowJointTrajectory
 from trajectory_msgs.msg import JointTrajectoryPoint
 from builtin_interfaces.msg import Duration
 
-
 class PandaController(Node):
 
     def __init__(self):
-        rclpy.init()
         super().__init__('panda_controller')
-
         # Action client for the 7 arm joints
         self.arm_client = ActionClient(
             self,
@@ -32,7 +29,7 @@ class PandaController(Node):
 
         self.get_logger().info('Panda controller initialized')
 
-    def move_arm(self, positions, duration=5):
+    def move_arm(self, positions, duration_sec=0,duration_ms=2):
 
         joint_names = [
             'panda_joint1',
@@ -47,8 +44,6 @@ class PandaController(Node):
         if len(positions) != 7:
             raise ValueError('The Panda arm requires 7 joint positions')
 
-        self.get_logger().info('Waiting for arm controller...')
-
         if not self.arm_client.wait_for_server(timeout_sec=5.0):
             self.get_logger().error('Arm controller not available')
             return
@@ -61,12 +56,12 @@ class PandaController(Node):
         # Define target position
         point = JointTrajectoryPoint()
         point.positions = positions
-        point.time_from_start = Duration(sec=duration)
+        point.time_from_start = Duration(sec=duration_sec,nanosec=duration_ms*1000)
 
         goal.trajectory.points.append(point)
 
         # Send goal
-        self.get_logger().info(f'Moving arm to: {positions}')
+        # self.get_logger().info(f'Moving arm to: {positions}')
 
         future = self.arm_client.send_goal_async(goal)
         rclpy.spin_until_future_complete(self, future)
@@ -77,18 +72,15 @@ class PandaController(Node):
             self.get_logger().error('Trajectory rejected')
             return
 
-        self.get_logger().info('Trajectory accepted')
-
         # Wait for execution result
         result_future = goal_handle.get_result_async()
         rclpy.spin_until_future_complete(self, result_future)
 
         result = result_future.result()
 
-        if result is not None and result.result.error_code == 0:
-            self.get_logger().info('Arm movement completed successfully')
-        else:
+        if not (result is not None and result.result.error_code == 0):
             self.get_logger().error('Arm movement failed')
+
 
     def move_hand(self, opening, duration=2):
 
@@ -133,10 +125,6 @@ class PandaController(Node):
             self.get_logger().info('Gripper movement completed')
         else:
             self.get_logger().error('Gripper movement failed')
-
-    def destroy(self):
-       self.destroy_node()
-       rclpy.shutdown()
 
 def main(args=None):
 

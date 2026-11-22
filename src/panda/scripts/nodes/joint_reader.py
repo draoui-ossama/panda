@@ -8,16 +8,19 @@ class JointReader(Node):
 
     def __init__(self):
         super().__init__('panda_joint_reader')
+        self.th = None
+        self.d = None
         self.q = None
         self.subscription = self.create_subscription(
             JointState,
             '/joint_states',
             self.joint_callback,
-            10
+            100
         )
-
     def joint_callback(self, msg):
        self.q = list(msg.position)
+       self.d = self.q[:2]
+       self.th = self.q[2:]
     
 
 def main():
